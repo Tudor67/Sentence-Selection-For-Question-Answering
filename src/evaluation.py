@@ -9,7 +9,7 @@ def precision_at_k(y_pred, y, k=1):
     return tp / k
 
 
-def average_precision(y_pred, y, k=1):
+def average_precision(y_pred, y):
     precisions = list()
     tp = .0
     for i in range(len(y_pred)):
@@ -17,7 +17,7 @@ def average_precision(y_pred, y, k=1):
             tp += 1
             precisions.append(tp / (i + 1))
 
-    return np.mean(np.array(precisions))
+    return np.mean(precisions)
 
 
 def main():
