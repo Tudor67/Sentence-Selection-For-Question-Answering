@@ -11,10 +11,12 @@ that contains the correct answer for a given question.
 1. Clone or download the project;
 2. Create the folder `./data/squad/`;
 3. Copy the [train and dev set of SQuAD][1] in `./data/squad/`;
-4. Run the kernel `./src/data_preprocessing.ipynb`.  
+4. Run the kernel `./src/data_preprocessing.ipynb`;  
    After this step, in `./data/squad/` will be created the following files:
-    * _train-v1.1-preprocessed.json_
-    * _dev-v1.1-preprocessed.json_
+    * _train-v1.1-preprocessed.json_;
+    * _dev-v1.1-preprocessed.json_;  
+5. Run the kernel `./src/baseline.ipynb`.  
+   Here are the first results using simple approaches.
 
 
 ## Datasets
