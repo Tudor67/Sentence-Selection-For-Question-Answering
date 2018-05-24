@@ -17,6 +17,14 @@ that contains the correct answer for a given question.
     * _dev-v1.1-preprocessed.json_;  
 5. Run the kernel `./src/baseline.ipynb`.  
    Here are the first results using simple approaches.
+6. Create the folder `./word_embeddings/`;  
+   Download and copy in this folder pretrained word embeddings: https://code.google.com/archive/p/word2vec/
+   Run the kernel `./src/classification.ipynb`.  
+   Here are the results using LogisticRegression for pretrained word embeddings.
+6. Run the kernel `./src/bm25.ipynb`.  
+   Here are the results using bm25 ranking function.
+8. Run the kernel `./src/combined_methods.ipynb`.  
+   Here are the last results using a combination of previous methods.
 
 
 ## Datasets
